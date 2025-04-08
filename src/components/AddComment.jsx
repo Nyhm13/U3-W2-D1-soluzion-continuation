@@ -35,11 +35,11 @@ const AddComment = function (props) {
       if (response.ok) {
         alert("Recensione inviata!");
        setComment({
-          comment: {
+          
             comment: "",
             rate: 1,
             elementId: props.asin,
-          },
+         
         });
       } else {
         throw new Error("Qualcosa è andato storto");
