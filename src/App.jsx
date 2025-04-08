@@ -17,7 +17,7 @@ function App() {
         <Welcome />
         {/* <AllTheBooks /> */}
         <BookList books={fantasy} />
-      </Container>
+      </Container> 
       <MyFooter />
     </>
   )
