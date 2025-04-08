@@ -1,5 +1,6 @@
 import { Button, ListGroup } from 'react-bootstrap'
-
+const Token =
+  "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2Y1MTgyMTgxYjBkZDAwMTUwYTdhODMiLCJpYXQiOjE3NDQxMTU3NDYsImV4cCI6MTc0NTMyNTM0Nn0.y_Mb9GaB6tpjPG_gAQ_XPKy-_ZfPw0Y4uFtL5mtlXQk";
 const SingleComment = ({ comment }) => {
   const deleteComment = async (asin) => {
     try {
